@@ -1,0 +1,22 @@
+.todoTable{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.todoHeader{
+  display: flex;
+  margin-top: 20px;
+  gap: 50px;
+}
+.todoBody{
+  display: flex;
+  margin-top: 10px;
+  gap: 50px
+}
+
+.todoContent{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
