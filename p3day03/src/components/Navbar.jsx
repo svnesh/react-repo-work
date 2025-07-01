@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="flex gap-6 p-3 bg-gray-600 text-white items-center justify-end">
       <NavLink to="/home">Home</NavLink>
       <NavLink to="/about">About</NavLink>
-      <NavLink to="/product">Product</NavLink>
+      <NavLink to="/products">Product</NavLink>
       <button onClick={handleLogout} className={ isLoggedIn ? "p-2 bg-blue-400 rounded-2xl items-center w-30 cursor-pointer" : ""}>{isLoggedIn ? "Logout" : ""}</button>
     </nav>
   )
